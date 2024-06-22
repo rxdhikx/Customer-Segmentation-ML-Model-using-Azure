@@ -46,6 +46,9 @@
 
 <h1> Working with Datasets in Azure Studio </h1>
 
+<img width="1095" alt="Screenshot 2024-06-22 at 12 35 10 PM" src="https://github.com/rxdhikx/Customer-Segmentation-Model-using-Azure/assets/103060090/4ae923d9-65ef-4a27-b2ff-bb293d2108eb">
+
+
 1. In the pipeline created above, drag and drop the dataset (say A) from >>> in Designer
 2. Previewing the data by clicking on the center circle, to check the columns and what the data looks like.
 3. <b> As Var_1 is just categorical column, we dont need this to train the dataset. We need it to categorize/cluster. So we gotta remove it. </b>
@@ -58,6 +61,10 @@
 10. Now we have seelcted all columns required for ML.
 
 # Preprocessing the Data
+
+<img width="344" alt="Screenshot 2024-06-22 at 12 38 43 PM" src="https://github.com/rxdhikx/Customer-Segmentation-Model-using-Azure/assets/103060090/80df0ea2-5581-4e2f-b8f6-2fe7bfd0b302">
+
+
 <h1> Cleaning the Data </h1> 
 
 1. Search "clean" and select "clean Missing Data" label and drag drop into workspace. Do it Twice to duplicate (As two data types present in dataset)
@@ -87,11 +94,16 @@ We are converting categorical type of variables into numerical type of features 
 6. Connect ND to CIV
 
    <h3> Submitting the pipeline </h3>
+   
+<img width="1141" alt="Screenshot 2024-06-22 at 10 24 31 AM" src="https://github.com/rxdhikx/Customer-Segmentation-Model-using-Azure/assets/103060090/567fe889-4d8f-4e7b-8737-68888f3934a5">
 
    1. Experiment create new and submit.
    2. Pipeline Job is created and is running.
-   3. You can see the results of this data transformation by "previewing data" at each bubble on table.
-  
+   3. You can see the results of this data transformation by "previewing data" at each component.
+
+
+<img width="729" alt="Screenshot 2024-06-22 at 12 05 50 PM" src="https://github.com/rxdhikx/Customer-Segmentation-Model-using-Azure/assets/103060090/860d48b3-0c18-4120-9b44-58626177d4ba">
+
 
 <h2> K-means Clustering </h2>
 
