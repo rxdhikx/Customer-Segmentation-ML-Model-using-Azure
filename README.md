@@ -14,6 +14,6 @@ Could you help the manager figure out the right group of new customers? <br>
 
 <h3> Summary:</h3>
 
-Using Azure Machine Learning Designer Service in the Azure Studio, a clustering model is built and deployed for customer segmentation into 4 broad categories (K=4) based upon a set of features available in the dataset.
+Using Azure Machine Learning Designer Service in the Azure Studio, a clustering model is built and a predictive service is deployed for customer segmentation into 4 broad categories (K=4) based upon a set of features available in the dataset.
 
 <h6><a href ="https://www.kaggle.com/datasets/vetrirah/customer?resource=download"> Kaggle Link </a></h6>
