@@ -28,6 +28,7 @@
    1. Create Compute Instance <br>
    2. Use general purpose one - Standard DS3 V2 6 core CPU, as that's enough for this project; we are not using deep learning to train the model anyway. <br>
 
+<img width="1440" alt="Screenshot 2024-06-21 at 7 04 21 PM" src="https://github.com/rxdhikx/Customer-Segmentation-Model-using-Azure/assets/103060090/589825e1-11e0-456c-8288-55940fd23021">
 
 
    <h1> Upload the Data</h1>
@@ -56,6 +57,7 @@
 9. Observe that the data types are different: eg ever_married & graduated are Boolean ; Others are String
 10. Now we have seelcted all columns required for ML.
 
+# Preprocessing the Data
 <h1> Cleaning the Data </h1> 
 
 1. Search "clean" and select "clean Missing Data" label and drag drop into workspace. Do it Twice to duplicate (As two data types present in dataset)
@@ -80,8 +82,8 @@ We are converting categorical type of variables into numerical type of features 
 1. Search "Convert to indicator values" (say CIV) drag and drop - edit and include column types "categorical"
 2. Search "Edit metadata" (say EM) drag and drop - include boolean and string column types - change into categorical 
 3. Connect EM to CD2 & CIV to EM
-4. Search "Normalized data" (say ND) drag and drop
-5. Transformation method = minmax (to have rabnge 0 to 1) & Include numeric column types.
+4. Search "Normalized data" (say ND) drag and drop - required for scaling in same range- performs well in One hot encoding then
+5. Transformation method = minmax (to have range 0 to 1) & Include numeric column types.
 6. Connect ND to CIV
 
    <h3> Submitting the pipeline </h3>
