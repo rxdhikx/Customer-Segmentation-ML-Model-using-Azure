@@ -79,8 +79,8 @@
 <h4> Why? </h4>
 We are converting categorical type of variables into numerical type of features because clustering models work well with numeric features (normalized) n.
 
-1. Search "Convert to indicator values" (say CIV) drag and drop - edit and include column types "categorical"
-2. Search "Edit metadata" (say EM) drag and drop - include boolean and string column types - change into categorical 
+1. Search "Convert to indicator values" (say CIV) drag and drop - edit and include column types "categorical". Overwrite categorical columns = True.
+2. Search "Edit metadata" (say EM) drag and drop - include boolean and string column types - change into categorical. Use default output settings. 
 3. Connect EM to CD2 & CIV to EM
 4. Search "Normalized data" (say ND) drag and drop - required for scaling in same range- performs well in One hot encoding then
 5. Transformation method = minmax (to have range 0 to 1) & Include numeric column types.
