@@ -3,6 +3,10 @@
 Tech: Unsupervised Machine Learning <br>
 Model: K-Means Clustering
 
+<h6><a href ="https://www.kaggle.com/datasets/vetrirah/customer?resource=download"> Kaggle Link </a></h6>
+<h6><a href ="https://ml.azure.com/runs/80527ea2-6136-42d5-9143-e3a95b25fe73?wsid=/subscriptions/d2022f18-15d1-42a8-82f9-d1d5e03abe93/resourcegroups/Education/providers/Microsoft.MachineLearningServices/workspaces/Customer_Segmentation_Model&tid=9673e9a8-aa57-4461-9336-5fd3f0034e18#/?graphId=638ad6d7-3ff2-47c4-8f3f-3a01a95895bc&label=Customer-Segmentation-Pipeline&path=%2Fruns%2F80527ea2-6136-42d5-9143-e3a95b25fe73&runId=80527ea2-6136-42d5-9143-e3a95b25fe73"> Azure Pipeline Link </a> </h6>
+
+
 <h3> Problem Statement: </h3>
 An automobile company has plans to enter new markets with their existing products (P1, P2, P3, P4 and P5). After intensive market research, they’ve deduced that the behavior of the new market is similar to their existing market.
 <br>
@@ -16,4 +20,5 @@ Could you help the manager figure out the right group of new customers? <br>
 
 Using Azure Machine Learning Designer Service in the Azure Studio, a clustering model is built and a predictive service is deployed for customer segmentation into 4 broad categories (K=4) based upon a set of features available in the dataset.
 
-<h6><a href ="https://www.kaggle.com/datasets/vetrirah/customer?resource=download"> Kaggle Link </a></h6>
+<br>
+<h6> Pipeline job ID: 80527ea2-6136-42d5-9143-e3a95b25fe73 </h6>
