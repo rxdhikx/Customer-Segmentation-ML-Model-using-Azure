@@ -1,4 +1,4 @@
-<h1> Create Azure Workspace </h1>
+<h1> Creating Azure Workspace </h1>
 
 1. In the searchbar, search for "Azure Machine Learning" Service. It is one of the Azure services we are going to use to create our workspace to build the model
 2. Click on "Create"
