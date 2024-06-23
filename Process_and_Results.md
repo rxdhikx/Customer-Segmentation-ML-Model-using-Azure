@@ -23,7 +23,7 @@
     <img width="1440" alt="Screenshot 2024-06-21 at 8 38 59 AM" src="https://github.com/rxdhikx/Customer-Segmentation-Model-using-Azure/assets/103060090/e8f7eca5-2df9-44a1-93f1-ace241056090">
 
 
-   <h1> Create Compute Resources to run Experiments</h1>
+   <h1> Creating Compute Resources to run Experiments</h1>
    
    1. Create Compute Instance <br>
    2. Use general purpose one - Standard DS3 V2 6 core CPU, as that's enough for this project; we are not using deep learning to train the model anyway. <br>
@@ -38,7 +38,7 @@
 
 
 
-   <h1> Create a Pipeline in Azure </h1>
+   <h1> Creating a Pipeline in Azure </h1>
    1. Go to Designer <br>
    2. Create new pipeline <br>
    3. Create Compute cluster (to run our experiment) -- Compute Type: Compute Cluster <br>
@@ -81,7 +81,7 @@
 2. Column Type = Numeric
 3. Cleaning Mode = Replace with Mean
 
-<h3> Apply One Hot encoding to Categorical Data Type </h3>
+<h3> Applying One Hot Encoding to Categorical Data Type </h3>
 
 <h4> Why? </h4>
 We are converting categorical type of variables into numerical type of features because clustering models work well with numeric features (normalized) n.
@@ -115,7 +115,7 @@ We are converting categorical type of variables into numerical type of features 
    New data which is formed, we gotta assign labels to them. <br>
    Drag and drop! "Assign data to Clusters"
    
-<h2> Evaluate Model</h2>
+<h2> Evaluating the Model</h2>
 
    "Evaluate Model" component - drag & drop!
 
@@ -135,7 +135,7 @@ This means, our pipeline accepts input from the client application and returns t
 <img width="715" alt="Screenshot 2024-06-22 at 9 27 11 PM" src="https://github.com/rxdhikx/Customer-Segmentation-Model-using-Azure/assets/103060090/1d6a33b9-b310-49d6-a535-be7721501575">
 
 
-<h2> Deploy the Model </h2>
+<h2> Deployment of the Model </h2>
 
 Once inference pipeline is ready, we are good to submit this inference pipeline and deploy to get new endpoints.<br>
 Once deployed, we get new Endpoints.
