@@ -132,6 +132,9 @@ are automatically created.
 This means, our pipeline accepts input from the client application and returns the result (i.e cluster assignment, i.e. A,B,C or D) as an output to the client application.  
 <br>
 
+<img width="715" alt="Screenshot 2024-06-22 at 9 27 11 PM" src="https://github.com/rxdhikx/Customer-Segmentation-Model-using-Azure/assets/103060090/1d6a33b9-b310-49d6-a535-be7721501575">
+
+
 <h2> Deploy the Model </h2>
 
 Once inference pipeline is ready, we are good to submit this inference pipeline and deploy to get new endpoints.<br>
