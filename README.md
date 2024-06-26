@@ -3,6 +3,7 @@
 Tech: Unsupervised Machine Learning <br>
 Model: K-Means Clustering
 
+<h6> <a href ="https://github.com/rxdhikx/Customer-Segmentation-ML-Model-using-Azure/blob/main/Process_and_Results.md"> Project Report Link </a></h6>
 <h6><a href ="https://www.kaggle.com/datasets/vetrirah/customer?resource=download"> Kaggle Link </a></h6>
 <h6><a href ="https://ml.azure.com/runs/80527ea2-6136-42d5-9143-e3a95b25fe73?wsid=/subscriptions/d2022f18-15d1-42a8-82f9-d1d5e03abe93/resourcegroups/Education/providers/Microsoft.MachineLearningServices/workspaces/Customer_Segmentation_Model&tid=9673e9a8-aa57-4461-9336-5fd3f0034e18#/?graphId=638ad6d7-3ff2-47c4-8f3f-3a01a95895bc&label=Customer-Segmentation-Pipeline&path=%2Fruns%2F80527ea2-6136-42d5-9143-e3a95b25fe73&runId=80527ea2-6136-42d5-9143-e3a95b25fe73"> Azure Pipeline Link </a> </h6>
 
