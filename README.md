@@ -1,7 +1,7 @@
 # Customer-Segmentation-Model-using-Azure
 
 Tech: Unsupervised Machine Learning <br>
-Model: K-Means Clustering
+Model: K-Means Clustering <br>
 Algorithm: One Hot Encoding
 
 <h6> <a href ="https://github.com/rxdhikx/Customer-Segmentation-ML-Model-using-Azure/blob/main/Process_and_Results.md"> Project Report Link </a></h6>
