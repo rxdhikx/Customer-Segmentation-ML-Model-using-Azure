@@ -2,6 +2,7 @@
 
 Tech: Unsupervised Machine Learning <br>
 Model: K-Means Clustering
+Algorithm: One Hot Encoding
 
 <h6> <a href ="https://github.com/rxdhikx/Customer-Segmentation-ML-Model-using-Azure/blob/main/Process_and_Results.md"> Project Report Link </a></h6>
 <h6><a href ="https://www.kaggle.com/datasets/vetrirah/customer?resource=download"> Kaggle Link </a></h6>
